@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Let's see if branching and running a PR will trigger a build.</p>
-        <p>Welcome to Karen's first <span className="strong">deployed</span> Next.js app. Reach out to me on <a href="https://twitter.com/kldickenson">Twitter</a> to hear about what I have been up to.</p>
+        <p>Welcome to Karen's first <span className={utilStyles.strong}>deployed</span> Next.js app. Reach out to me on <a href="https://twitter.com/kldickenson">Twitter</a> to hear about what I have been up to.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)

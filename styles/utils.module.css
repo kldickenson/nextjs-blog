@@ -55,4 +55,6 @@
 
 .strong {
   color: indigo;
+  font-weight: bold;
+  font-style: italic;
 }
